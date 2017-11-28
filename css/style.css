@@ -1,0 +1,126 @@
+body {
+    /*font-size: 25px;*/
+}
+
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #6F9CAE;
+    clear: left;
+    text-align: center;
+}
+
+
+header {
+    text-align: left;
+}
+footer {
+    margin-top: 50px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding-bottom: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.registration {
+    text-align: right;
+}
+.text_shadow a:hover {
+    color: darkred;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;;
+}
+
+.error {
+    color: red;
+}
+
+.payment_system td:hover{
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black, 0 0 1em black;;
+}
+
+#cost_of_purchase {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.overlay {
+    background: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    opacity: .5;
+}
+.visible {
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    overflow: hidden;
+    z-index: 2000;
+    width: 500px;
+    padding: 0px;
+    margin-left: -250px;
+}
+#win button {
+    float: right;
+    line-height: 20px;
+    margin: 1.2em;
+    border: none;
+    background: transparent;
+    color: blue;
+}
+#win button[type="button"]:hover {
+    cursor: pointer;
+    color: navy;
+    text-decoration: underline;
+}
+#win h3 {
+    text-align: center;
+    color: #555;
+}
+.content {
+    padding: 0 1em;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: WhiteSmoke;
+}
